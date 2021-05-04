@@ -19,7 +19,7 @@ Find the best price for any asset on any Decentralized Exchange (DEX) at any tim
 ## Quick Start
 
 NPM
-`npm install --save ethereum-dex-prices-service`
+`npm install --save ethereum-dex-prices-service`  // --> this command doesn't works
 
 Yarn
 `yarn add ethereum-dex-prices-service`
@@ -115,11 +115,11 @@ yarn install
 #### Running the service as a command line tool
 
 ```sh
-yarn search buy 500 DAI
+yarn search buy 500 DAI // --> this command doesn't works
 ```
 
 ```sh
-yarn search sell 300 OMG
+yarn search sell 300 OMG // --> this command doesn't works
 ```
 
 #### Running the service as a web server
@@ -137,7 +137,7 @@ You should then see:
 Now, make an HTTP request:
 
 ```sh
-curl http://localhost:1337/sell\?symbol\=DAI\&amount\=500
+curl http://localhost:1337/sell\?symbol\=DAI\&amount\=500 // --> this command doesn't works
 ```
 
 ## Commands
